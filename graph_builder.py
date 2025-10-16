@@ -124,5 +124,5 @@ def build_graph(json_file="data.json", uri="bolt://localhost:7687", user="neo4j"
 if __name__ == "__main__":
     neo4j_uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
     neo4j_user = os.getenv("NEO4J_USER", "neo4j")
-    neo4j_password = os.getenv("NEO4J_PASSWORD", "tryingtrying")
+    neo4j_password = os.getenv("NEO4J_PASSWORD", "ShivaAb8@")
     build_graph(json_file="data.json", uri=neo4j_uri, user=neo4j_user, password=neo4j_password, database="neo4j")
